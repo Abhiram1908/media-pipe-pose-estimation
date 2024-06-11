@@ -5,9 +5,9 @@
 
 **Data Collection**: It learns through real time Data when the camera is working.
 
-**Training**: Describe the process of training the KNN classifier using the extracted features and corresponding labels (correct hand posture or incorrect hand posture). Highlight the importance of parameter tuning and cross-validation to optimize model performance.
+**Training** : the process of training the KNN classifier using the extracted features and corresponding labels (correct hand posture or incorrect hand posture). Highlighted the importance of parameter tuning and cross-validation to optimize model performance.
 
-**Testing and Evaluation**: Discuss how you evaluated the trained model on new images or video frames to classify the hand posture during pushups. Mention metrics used for evaluation, such as accuracy, precision, recall, or F1-score.
+**Testing and Evaluation**: The evaluation of  the trained model on new images or video frames to classify the hand posture during pushups.  
 
 **Results and Performance**: Nearly 96.7 % accuracy made the model  in detecting correct hand posture during pushups. Mainly the angle of the hand made a big problem but after a lot of changes it got resolved.
 
