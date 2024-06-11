@@ -1,5 +1,5 @@
-**Gym Pose Estimation**
-#Problem Statement:  Begin by explaining the problem you aimed to solve: ensuring correct hand posture during pushups, which is crucial for avoiding injury and maximizing the effectiveness of the exercise.
+# **Gym Pose Estimation**
+Problem Statement:  Begin by explaining the problem you aimed to solve: ensuring correct hand posture during pushups, which is crucial for avoiding injury and maximizing the effectiveness of the exercise.
 
 Approach Overview: Briefly describe your approach, which involves using K-Nearest Neighbors (KNN) algorithm for pose estimation.
 
