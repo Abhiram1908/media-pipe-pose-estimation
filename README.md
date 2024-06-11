@@ -1,20 +1,16 @@
 # **Gym Pose Estimation**
-Problem Statement:  Begin by explaining the problem you aimed to solve: ensuring correct hand posture during pushups, which is crucial for avoiding injury and maximizing the effectiveness of the exercise.
+**Problem Statement** : The aim of project is ensuring correct hand posture during pushups, which is crucial for avoiding injury and maximizing the effectiveness of the exercise.
 
-Approach Overview: Briefly describe your approach, which involves using K-Nearest Neighbors (KNN) algorithm for pose estimation.
+**Approach Overview**: Approach which involves using K-Nearest Neighbors (KNN) algorithm for pose estimation.
 
-Data Collection: Explain how you collected the dataset consisting of images or videos showing people performing pushups with correct hand posture. Mention the importance of having a diverse dataset to ensure the model's robustness.
+**Data Collection**: It learns through real time Data when the camera is working.
 
-Preprocessing: Discuss the preprocessing steps you performed on the collected data, such as resizing images, removing noise, or augmenting the dataset to increase its size and diversity.
+**Training**: Describe the process of training the KNN classifier using the extracted features and corresponding labels (correct hand posture or incorrect hand posture). Highlight the importance of parameter tuning and cross-validation to optimize model performance.
 
-Feature Extraction: Explain the features you extracted from the preprocessed images, such as the position and orientation of the hand relative to other body parts.
+**Testing and Evaluation**: Discuss how you evaluated the trained model on new images or video frames to classify the hand posture during pushups. Mention metrics used for evaluation, such as accuracy, precision, recall, or F1-score.
 
-Training: Describe the process of training the KNN classifier using the extracted features and corresponding labels (correct hand posture or incorrect hand posture). Highlight the importance of parameter tuning and cross-validation to optimize model performance.
+**Results and Performance**: Nearly 96.7 % accuracy made the model  in detecting correct hand posture during pushups. Mainly the angle of the hand made a big problem but after a lot of changes it got resolved.
 
-Testing and Evaluation: Discuss how you evaluated the trained model on new images or video frames to classify the hand posture during pushups. Mention metrics used for evaluation, such as accuracy, precision, recall, or F1-score.
+**Future Improvements**: There are potential future improvements or extensions to the project, such as incorporating real-time pose estimation using webcam feeds, deploying the model in a mobile app, or integrating feedback mechanisms for users.
 
-Results and Performance: Present the results of your experiment, including the accuracy of the model in detecting correct hand posture during pushups. Discuss any challenges encountered and how you addressed them.
-
-Future Improvements: Share your thoughts on potential future improvements or extensions to the project, such as incorporating real-time pose estimation using webcam feeds, deploying the model in a mobile app, or integrating feedback mechanisms for users.
-
-Conclusion: Summarize the key findings and contributions of your project, emphasizing its potential impact on promoting proper form and safety in gym workouts.
+**Conclusion**: This project is mainly used through real time webcam and this is given me a lot to learn in machine learning, with mediapipe and open cv i got an accuracy of 96.7% using evalution metrics.
